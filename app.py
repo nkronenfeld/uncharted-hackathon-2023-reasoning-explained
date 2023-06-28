@@ -1,3 +1,4 @@
+import json
 import os
 
 import openai
@@ -92,6 +93,24 @@ def article_index():
     return render_template("article_index.html", result=result)
 
 
+def trim_str (input: str) -> str:
+    ignored_characters = set(['\'', '"', ' ', '\t', '\n'])
+    while input[0] in ignored_characters:
+        input = input[1:]
+    while input[-1] in ignored_characters:
+        input = input[:-1]
+    return input
+
+standard_request = '''
+Please outline all arguments made in the article.
+Format the response as a JSON array of JSON objects, with the argument listed under the "argument" property.
+In each object, please also include the following properties:
+   quotes - a list of all the quotes from the article that support the given argument
+   assumptions - a list of assumptions (both explicit and implicit) assumed by the given argument
+   fallacies - a list of logical fallacies that the argument might exhibit
+   rating - the probability that the argument is true
+'''
+
 @app.route('/article_json', methods=['POST'])
 def article_json():
     input_json = request.get_json(force=True)
@@ -105,11 +124,57 @@ def article_json():
         messages=[
             {"role": "system", "content": "what is the article we are discussing?"},
             {"role": "assistant", "content": content},
-            {"role": "user", "content": "Please outline all arguments made in the article."}
+            {"role": "user", "content": standard_request}
         ]
     )
-    text_result = '\n'.join([c['message']['content'] for c in response.choices]).split('\n')
-    return jsonify({'results': text_result})
+    text_result = [c['message']['content'] for c in response.choices]
+    json_result = [json.loads(t) for t in text_result]
+    for jr in json_result:
+        for r in jr:
+            # go through quotes, see if they are there, and get offsets
+            for i, q in enumerate(r['quotes']):
+                q = trim_str(q)
+                q_json = { 'quote': q }
+                q_parts = q.split('...')
+                if len(q_parts) > 1:
+                    starts = [content.lower().find(qq.lower()) for qq in q_parts]
+                    if min(starts) < 0:
+                        q_json['found'] = False
+                    else:
+                        q_json['found'] = True
+                        q_json['start'] = min(starts)
+                        q_json['end'] = max([starts[i] + len(q_parts[i]) for i in range(len(q_parts))])
+                else:
+                    start = content.lower().find(q.lower())
+                    if start == -1:
+                        q_json['found'] = False
+                    else:
+                        q_json['found'] = True
+                        q_json['start'] = start
+                        q_json['end'] = start + len(q)
+                r['quotes'][i] = q_json
+
+    return jsonify(json_result)
+
+    # text_result = [{'text': t} for t in '\n'.join([c['message']['content'] for c in response.choices]).split('\n')]
+    # for i in range(len(text_result)):
+    #     print(f'Checking response {text_result[i]}')
+    #     messages = [
+    #         {"role": "system", "content": "what is the article we are discussing?"},
+    #         {"role": "assistant", "content": content},
+    #         {"role": "system", "content": "what argument are we discussing?"},
+    #         {"role": "assistant", "content": text_result[i]['text']},
+    #         {"role": "user", "content": "Where in the article is this argument discussed? Please answer in the form of a list of quotes, separated by a pipe (\"|\") character."}
+    #     ]
+    #     response = openai.ChatCompletion.create(
+    #         model="gpt-3.5-turbo",
+    #         messages=messages
+    #     )
+    #     text_bounds = '|'.join([c['message']['content'] for c in response.choices]).split('|')
+        
+    #     text_result[i]['result'] = text_bounds
+
+    # return jsonify({'results': text_result})
 
 
 
