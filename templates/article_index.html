@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+  <title>OpenAI Quickstart</title>
+  <link
+    rel="shortcut icon"
+    href="{{ url_for('static', filename='dog.png') }}"
+  />
+  <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}" />
+</head>
+
+<body>
+  <p style="align-items: center;">
+    <img src="{{ url_for('static', filename='dog.png') }}" class="icon" />
+    <h3>article argument threading</h3>
+    <form action="/article" method="post">
+      <input type="submit" value="Generate results" />
+    </form>
+  </p>
+  {% if result %}
+    {% for item in result %}
+      <p> {{item }} </p>
+    {% endfor %}
+  {% endif %}
+</body>

@@ -23,7 +23,7 @@ input {
 body {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   padding-top: 60px;
 }
 .icon {
