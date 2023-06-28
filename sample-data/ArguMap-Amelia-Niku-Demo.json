@@ -1,0 +1,1576 @@
+{
+    "_id": "Amelia-Niku-Demo-Final",
+    "filename": "Amelia-Niku-Demo-Final",
+    "analytic_question": "What happened to Amelia Earhart?",
+    "metadata": {
+        "dateCreated": "2018-05-23T21:14:09.237Z",
+        "lastModified": "2018-06-06T19:44:18.912Z",
+        "comments": "",
+        "securityAttributesGroup": {
+            "classification": "U",
+            "SCIcontrols": [],
+            "disseminationControls": [],
+            "releasableTo": [],
+            "FGIsourceOpen": []
+        }
+    },
+    "argMapperMetaData": {
+        "schemaVersion": "1.0.0",
+        "owner": "Default.User",
+        "sharing": {
+            "allPerms": [],
+            "read": [],
+            "write": [],
+            "delete": []
+        },
+        "certaintyScale": "argumap.strength6"
+    },
+    "nodes": [
+        {
+            "id": "14",
+            "visual_id": "14",
+            "name": "Last Known Position:  Was near the Nukumanu Islands, about 800 miles (1,300 km) into the flight..  Radio report from Earhart.  (Note these are not the Nikumaroro Islands.)",
+            "description": "",
+            "user_certainty": 4,
+            "combiningFunc": "MIN",
+            "type": "EVD_SIGINT",
+            "templateID": null,
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "2/2/2015, 11:59:19 AM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "",
+                "url": ""
+            },
+            "clones": []
+        },
+        {
+            "id": "23",
+            "visual_id": "23",
+            "name": "Nikumaroro Location & Geography:  Gardner Island (now Nikumaroro) is a desert atoll 350 miles southeast of Howland Island. It is less than five miles long and 1.5 miles wide, with a lagoon at its center.  It is larger than Howland island and much more visible from the air, It was identified as a viable location for landing an aircraft running out of fuel - in several places the fringing reef at Gardner Island dries at low tide and is flat and smooth enough to land an airplane. ",
+            "description": "",
+            "user_certainty": 5,
+            "combiningFunc": "MIN",
+            "type": "EVD_GEOINT",
+            "templateID": null,
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "2/2/2015, 11:59:19 AM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "",
+                "url": ""
+            },
+            "clones": [
+                "991"
+            ]
+        },
+        {
+            "id": "32",
+            "visual_id": "32",
+            "name": "Nikumaroro Chart Accuracy & Geography: A week after the disappearance, naval aircraft from the Colorado flew over several islands in the group including Gardner Island (now called Nikumaroro), which had been uninhabited for over 40 years.  They found that Gardner's shape and size as recorded on charts were wholly inaccurate. The lagoon at Gardner looked sufficiently deep and certainly large enough so that a seaplane or even an airboat could have landed or taken off in any direction with little difficulty. Given a chance, it is believed that Miss Earhart could have landed her aircraft in this lagoon and swum or waded ashore.  Their commander Capt Friedell made no note of \"recent habitation\" in his official summary.",
+            "description": "",
+            "user_certainty": 4,
+            "combiningFunc": "MIN",
+            "type": "EVD_GEOINT",
+            "templateID": null,
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "2/2/2015, 11:59:19 AM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "Finding Amelia DVD, Annapolis, Maryland: Naval Institute Press, 2006. DVD: Contents: Reports: Lambrecht.pdf, p. 3",
+                "url": ""
+            },
+            "clones": []
+        },
+        {
+            "id": "41",
+            "visual_id": "41",
+            "name": "Post-Flight Radio Signals: For 4-5 days following disappearance, weak radio signals from the plane were heard. Very weak and garbled. Some of these reports of transmissions were later determined to be hoaxes but others were deemed authentic. TIGHAR re-examined all 120 radio signal reports, and concluded that 57 of them are credible. The captain of the USS Colorado later said \"There was no doubt many stations were calling the Earhart plane on the plane's frequency, some by voice and others by signals. All of these added to the confusion and doubtfulness of the authenticity of the reports.\" The first two days were marked by rumors and misinformation regarding radio transmission capabilities of the Lockheed Model 10 Electra that were finally resolved by the aircraft company. ",
+            "description": "",
+            "user_certainty": 3,
+            "combiningFunc": "MIN",
+            "type": "EVD_SIGINT",
+            "templateID": null,
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "2/2/2015, 11:59:19 AM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "",
+                "url": ""
+            },
+            "clones": [
+                "970"
+            ]
+        },
+        {
+            "id": "44",
+            "visual_id": "44",
+            "name": "Artifacts on Nikumaroro : Artifacts discovered by TIGHAR on Nikumaroro have included improvised tools; an aluminum panel, possibly from an Electra, made using 1930s manufacturing specifications; an oddly cut piece of clear Plexiglas the same thickness and curvature of an Electra window; and a size 9 Cat's Paw heel dating from the 1930s which resembles Earhart's footwear in world flight photos.The evidence remains circumstantial, but Earhart's surviving stepson, George Putnam Jr., has expressed support for TIGHAR's research. This evidence was further bolstered by a recently rediscovered photo of Earhart's Electra, which shows an aluminum panel similar in shape and size to the one found by TIGHAR had been used to seal a broken rear window in the plane just prior to departure. No other known photos show the panel. Attempts to match the panel's rivet pattern to the photo are ongoing. \nAccording to records, Noonan was 6 ft (1.8 m) tall and Earhart was 5 ft 8 in (1.73 m) and wore a size 6 shoe according to her sister.",
+            "description": "",
+            "user_certainty": 0,
+            "combiningFunc": "MIN",
+            "type": "EVD_MASINT",
+            "templateID": null,
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "2/2/2015, 11:59:19 AM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "[Foxnews.com, 2014] Pyle, Richard. \"Diary a clue to Amelia Earhart mystery.\" AP via \"Huffington Post,\" March 31, 2007. Retrieved: June 29, 2013.http://www.huffingtonpost.com/huff-wires/20070331/search-for-amelia/\n\nCruikshank, Joe. \"The Search for Earhart's Plane Continues.\" Treasure County Palm News, November 4, 2006. Retrieved: April 1, 2007. https://verify2.newsbank.com/ELinks/docreq/docreq.xml?docid=0000000000000000&siteid=TCNP&papercd=TCNP&from=&destination=http%3A%2F%2Fwww.newslibrary.com\n\nFoxnews.com. \"Report points to photo as possible new clue to Amelia Earhart's fate\" FoxNews.com, July 1, 2014. Retrieved: July 1, 2014. http://www.foxnews.com/science/2014/07/01/photo-may-offer-crucial-clue-in-amelia-earhart-mystery-report/\n",
+                "url": ""
+            },
+            "clones": []
+        },
+        {
+            "id": "47",
+            "visual_id": "47",
+            "name": "DNA & Artifacts Found on Nikumaroro: In 2007, a TIGHAR expedition visited Nikumaroro searching for unambiguously identifiable aircraft artifacts and DNA. The group included engineers, technical experts, archaeologists, anthropologists, and researchers.x, the research group said it had found bones that appeared to be part of a human finger. Subsequent DNA testing at the University of Oklahoma proved inconclusive as to whether the bone fragments were from a human or from a sea turtle.",
+            "description": "",
+            "user_certainty": 4,
+            "combiningFunc": "MIN",
+            "type": "EVD_MASINT",
+            "templateID": null,
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "2/2/2015, 11:59:19 AM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "Pyle, Richard. \"New search begins in Earhart mystery.\" USA Today, July 12, 2007. Retrieved: June 29, 2013. http://usatoday30.usatoday.com/news/nation/2007-07-12-2214476002_x.htm\n\n[\"TIGHAR 2007 Expedition Updates\" tighar.org, 2007]\n\nGast, Phil.\"DNA tests on bone fragment inconclusive in Amelia Earhart search\" www.cnn.com, March 3, 2011, Retrieved: March 3, 2011. http://www.cnn.com/2011/US/03/03/earhart.dna.research/?hpt=T1",
+                "url": ""
+            },
+            "clones": []
+        },
+        {
+            "id": "50",
+            "visual_id": "50",
+            "name": "Nikumaroro Reef Sonar Survey:  In July 2012, TIGHAR conducted an underwater expedition off the northwest reef of Nikumaroro, using sonar mapping. Some of the sonar images suggested a possible wreckage site, although Ric Gillespie, executive director of TIGHAR, cautioned that most of the Electra's parts would likely have disintegrated after 75 years in sea water. Nevertheless, in May 2013, TIGHAR announced that professional analysis of a 32-foot (9.8 m) anomaly in the sonar images showed what could possibly be the aircraft.",
+            "description": "",
+            "user_certainty": 2,
+            "combiningFunc": "MIN",
+            "type": "EVD_SIGINT",
+            "templateID": null,
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "2/2/2015, 11:59:19 AM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "\"Amelia Earhart Underwater video reveals evidence solves 75 year mystery aviators flight.\" Daily Mail, August 18, 2012. Retrieved: March 10, 2013. \n\nLorenzi, Rossella. \"Pieces of Amelia Earhart's plane located?\" Discovery Communications, LLC, November 18, 2012. Retrieved: March 10, 2013. http://news.discovery.com/history/us-history/amelia-earhart-plane-located-120817.htm\n\nZap, Claudine. \"Sonar image may show Amelia Earhart?s plane.\" News.yahoo.com, 2013. Retrieved: May 30, 2013. http://news.yahoo.com/blogs/lookout/sonar-image-may-show-amelia-earhart-plane-153437423.html\n\nSample, Ian. \"Pacific sonar 'streak' may be wreck of Amelia Earhart's plane.\" guardian.co.uk, 2013, Retrieved: May 31, 2013. http://www.theguardian.com/world/2013/may/31/pacific-wreck-amelia-earharts-plane?INTCMP=SRCH\n",
+                "url": ""
+            },
+            "clones": []
+        },
+        {
+            "id": "53",
+            "visual_id": "53",
+            "name": "Nikumaroro Flyover Search: A week after the disappearance, naval aircraft from the Colorado flew over several islands in the group including Gardner Island (now called Nikumaroro), which had been uninhabited for over 40 years. The subsequent report on Gardner read: \"Here signs of recent habitation were clearly visible but repeated circling and zooming failed to elicit any answering wave from possible inhabitants and it was finally taken for granted that none were there.\" Their commander Capt Friedell made no note of \"recent habitation\" in his official summary.",
+            "description": "",
+            "user_certainty": 4,
+            "combiningFunc": "MIN",
+            "type": "EVD_SIGINT",
+            "templateID": null,
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "2/2/2015, 11:59:19 AM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "Memo from Senior Aviator, USS Colorado, to The Chief of the Bureau of Aeronautics, \"Aircraft Search of Earhart Plane.\"\nFinding Amelia DVD, Annapolis, Maryland: Naval Institute Press, 2006. DVD: Contents: Reports: Lambrecht.pdf, p. 3",
+                "url": ""
+            },
+            "clones": []
+        },
+        {
+            "id": "56",
+            "visual_id": "56",
+            "name": "Nikumaroro Deep Sea Sonar Surveys:  David Jourdan, a former Navy submariner and ocean engineer specializing in deep-sea recoveries, has claimed any transmissions attributed to Gardner Island were false. Through his company Nauticos he extensively searched a 1,200-square-mile (3,100 km2) quadrant north and west of Howland Island during two deep-sea sonar expeditions (2002 and 2006, total cost $4.5 million) and found nothing. The search locations were derived from the line of position (157?337) broadcast by Earhart on July 2, 1937.[109]",
+            "description": "",
+            "user_certainty": 2,
+            "combiningFunc": "MIN",
+            "type": "EVD_SIGINT",
+            "templateID": null,
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "2/2/2015, 11:59:19 AM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "",
+                "url": ""
+            },
+            "clones": []
+        },
+        {
+            "id": "71",
+            "visual_id": "71",
+            "name": "Nkumaroro Skeleton & Sextant Box : In 1940, Gerald Gallagher, a British colonial officer and licensed pilot, radioed his superiors to inform them that he had found a \"skeleton ... possibly that of a woman,\" along with an old-fashioned sextant box, under a tree on the island's southeast corner. He was ordered to send the remains to Fiji, where in 1941, British colonial authorities took detailed measurements of the bones and concluded they were from a male about 5 ft 5 in tall. In 1998, however, an analysis of the measurement data by forensic anthropologists did not confirm the original findings, concluding instead, that the skeleton had belonged to a \"tall white female of northern European ancestry.\" The bones themselves were misplaced in Fiji long ago and have not been found.",
+            "description": "",
+            "user_certainty": 2,
+            "combiningFunc": "MIN",
+            "type": "EVD_HUMINT",
+            "templateID": null,
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "2/2/2015, 11:59:19 AM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "",
+                "url": ""
+            },
+            "clones": []
+        },
+        {
+            "id": "80",
+            "visual_id": "80",
+            "name": "Nikumaroro - Lack of Artifacts : During World War II, US Coast Guard LORAN Unit 92, a radio navigation station built in the summer and fall of 1944, and operational from mid-November 1944 until mid-May 1945, was located on Gardner Island's southeast end. Dozens of U.S. Coast Guard personnel were involved in its construction and operation, but were mostly forbidden from leaving the small base or having contact with the Gilbertese colonists then on the island, and found no artifacts known to relate to Earhart.",
+            "description": "",
+            "user_certainty": 4,
+            "combiningFunc": "MIN",
+            "type": "EVD_HUMINT",
+            "templateID": null,
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "2/2/2015, 11:59:19 AM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "",
+                "url": "http://www.loran-history.info/Gardner_Island/gardner.htm"
+            },
+            "clones": []
+        },
+        {
+            "id": "174",
+            "visual_id": "174",
+            "name": "Wrecked aircraft resembling Electra in New Britain: In 1990, Donald Angwin, a veteran of the Australian Army's World War II campaign in New Britain, contacted researchers to suggest that a wrecked aircraft he had witnessed in jungle about 40 miles (64 km) southwest of Rabaul, on April 17, 1945, may have been Earhart's Electra. Angwin, who was a corporal in the 11th Battalion at the time, reported that he and other members of a forward patrol on Japanese-occupied New Britain had found a wrecked twin-engined, unpainted all-metal aircraft. The soldiers recorded a rough position on a map, along with serial numbers seen on the wreckage. While the map was located in the possession of another veteran in 1993, subsequent searches of the area indicated failed to find a wreck. While Angwin died in 2001, David Billings, an Australian aircraft engineer, has continued to investigate his theory. Billings claims that the serial numbers written on the map, \"600H/P S3HI C/N1055\", represent a 600 hp (450 kW) Pratt & Whitney R-1340-S3H1 model engine and \"Constructor's Number 1055\", an airframe identifier These would be consistent with a Lockheed Electra 10E, such as that flown by Earhart, although they do not contain enough information to identify the wreck in question as NR16020.",
+            "description": "",
+            "user_certainty": 2,
+            "combiningFunc": "MIN",
+            "type": "EVD_HUMINT",
+            "templateID": null,
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "2/2/2015, 12:00:24 PM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "Billings, David. \"Aircraft Search Project in Papua New Guinea.\" Wings Over Kansas, 2000. Retrieved: March 27, 2012. http://www.wingsoverkansas.com/earhart/a850\n\n\"Angwin, Donald Arthur.\" Commonwealth of Australia: Military Forces, 2002. Retrieved: March 27, 2012.",
+                "url": ""
+            },
+            "clones": []
+        },
+        {
+            "id": "254",
+            "visual_id": "254",
+            "name": "Intended destination:  Howland Island was the destination. It is a flat sliver of land 6,500 ft (2,000 m) long and 1,600 ft (500 m) wide, 10 ft (3 m) high and 2,556 miles (4,113 km) away.",
+            "description": "",
+            "user_certainty": 4,
+            "combiningFunc": "MIN",
+            "type": "EVD_GEOINT",
+            "templateID": null,
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "2/2/2015, 12:00:38 PM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "",
+                "url": ""
+            },
+            "clones": []
+        },
+        {
+            "id": "263",
+            "visual_id": "263",
+            "name": "Itasca Smoke Signals : The Itasca used her oil-fired boilers to generate smoke for a period of time but the fliers apparently did not see it. The many scattered clouds in the area around Howland Island have also been cited as a problem: their dark shadows on the ocean surface may have been almost indistinguishable from the island's subdued and very flat profile.",
+            "description": "",
+            "user_certainty": 2,
+            "combiningFunc": "MIN",
+            "type": "EVD_GEOINT",
+            "templateID": null,
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "2/2/2015, 12:00:39 PM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "",
+                "url": ""
+            },
+            "clones": []
+        },
+        {
+            "id": "281",
+            "visual_id": "281",
+            "name": "Electra Fuel Level : British aviation historian Roy Nesbit interpreted evidence in contemporary accounts and Putnam's correspondence and concluded Earhart's Electra was not fully fueled at Lae.[Strippel 1995, p. 58]\b\bStrippel, Richard G. \"Researching Amelia: A Detailed Summary for the Serious Researcher into the Disappearance of Amelia Earhart.\" Air Classics, Vol. 31, No. 11, November 1995.",
+            "description": "",
+            "user_certainty": 4,
+            "combiningFunc": "MIN",
+            "type": "EVD_HUMINT",
+            "templateID": null,
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "2/2/2015, 12:00:39 PM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "",
+                "url": ""
+            },
+            "clones": []
+        },
+        {
+            "id": "296",
+            "visual_id": "296",
+            "name": "Direction Miscalculation:  William L. Polhemous, the navigator on Ann Pellegreno's 1967 flight which followed Earhart and Noonan's original flight path, studied navigational tables for July 2, 1937 and thought Noonan may have miscalculated the \"single line approach\" intended to \"hit\" Howland.",
+            "description": "",
+            "user_certainty": 1,
+            "combiningFunc": "MIN",
+            "type": "EVD_HUMINT",
+            "templateID": "CIT.00000",
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "2/2/2015, 12:00:40 PM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "Strippel, Richard G. \"Researching Amelia: A Detailed Summary for the Serious Researcher into the Disappearance of Amelia Earhart.\" Air Classics, Vol. 31, No. 11, November 1995.",
+                "url": ""
+            },
+            "clones": []
+        },
+        {
+            "id": "299",
+            "visual_id": "299",
+            "name": "Earhart Expertise (direction finding system): Some sources have noted Earhart's apparent lack of understanding of her direction-finding system, which had recently fitted to the aircraft just prior to the flight. The system was equipped with a new receiver from Bendix that operated on five wavelength \"bands\", marked 1 to 5. The loop antenna was equipped with a tuneable loading coil that changed the effective length of the antenna to allow it to work efficiently at different wavelengths. The tuner on the antenna was also marked with five settings, 1 to 5, but, critically, these were not the same frequency bands as the corresponding bands on the radio. The two were close enough for settings 1, 2 and 3, but the higher frequency settings, 4 and 5, were entirely different. Earhart's only training on the system was a brief introduction by Joe Gurr at the Lockheed factory, and the topic had not come up. A card displaying the band settings of the antenna was mounted so it was not visible. Gurr explained that higher frequency bands would offer better accuracy and longer range.",
+            "description": "Enter des\n[Elgen and Marie Long, \"Amelia Earhart: The Mystery Solved\", p. 116]\b\bLong, Elgen M. and Marie K. Amelia Earhart: The Mystery Solved. New York: Simon & Schuster, 1999. ISBN 0-684-86005-8.cription.",
+            "user_certainty": 2,
+            "combiningFunc": "MIN",
+            "type": "EVD_TECHINT",
+            "templateID": null,
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "2/2/2015, 12:00:40 PM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "",
+                "url": ""
+            },
+            "clones": []
+        },
+        {
+            "id": "302",
+            "visual_id": "302",
+            "name": "Earhart Expertise (piloting) : During the takeoff run, Earhart ground-looped, circumstances of which remain controversial. Some witnesses at Luke Field including the Associated Press journalist on the scene said they saw a tire blow. Earhart thought either the Electra's right tire had blown and/or the right landing gear had collapsed. Some sources, including Mantz, cited pilot error.",
+            "description": "",
+            "user_certainty": 2,
+            "combiningFunc": "MIN",
+            "type": "EVD_HUMINT",
+            "templateID": null,
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "2/2/2015, 12:00:40 PM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "Rich, Doris L. Amelia Earhart: A Biography. Washington, D.C.: Smithsonian Institution Press, 1989. ISBN 1-56098-725-1.",
+                "url": ""
+            },
+            "clones": []
+        },
+        {
+            "id": "305",
+            "visual_id": "305",
+            "name": "Noonan Expert Navigator:  Fred Noonan was chosen as a second navigator because there were significant additional factors which had to be dealt with while using celestial navigation for aircraft. He had vast experience in both marine (he was a licensed ship's captain) and flight navigation. Noonan had recently left Pan Am, where he established most of the company's China Clipper seaplane routes across the Pacific. Noonan had also been responsible for training Pan American's navigators for the route between San Francisco and Manila. The original plans were for Noonan to navigate from Hawaii to Howland Island, a particularly difficult portion of the flight; then Manning would continue with Earhart to Australia and she would proceed on her own for the remainder of the project.",
+            "description": "",
+            "user_certainty": null,
+            "combiningFunc": "MIN",
+            "type": "EVD_OSINT",
+            "templateID": null,
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "2/2/2015, 12:00:40 PM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "Long, Elgen M. and Marie K. Amelia Earhart: The Mystery Solved. New York: Simon & Schuster, 1999. ISBN 0-684-86005-8\nPost, Wiley and Harold Gatty. \"Chapter III, \"Driving from the back seat.\" Around the World in Eight Days. New York: Rand McNally & Company, 1931\nGrooch, William Stephen. Skyway to Asia. New York: Longmans, Green and Co., 1936. No ISBN.",
+                "url": ""
+            },
+            "clones": []
+        },
+        {
+            "id": "317",
+            "visual_id": "317",
+            "name": "Radio Transmission Range: Whether any post-loss radio signals were received from Earhart and Noonan remains unclear. If transmissions were received from the Electra, most if not all were weak and hopelessly garbled. Earhart's voice transmissions to Howland were on 3105 kHz, a frequency restricted to aviation use in the United States by the FCC. This frequency was not thought to be fit for broadcasts over great distances. When Earhart was at cruising altitude and midway between Lae and Howland (over 1,000 miles (1,600 km) from each) neither station heard her scheduled transmission at 0815 GCT. Moreover, the 50-watt transmitter used by Earhart was attached to a less-than-optimum-length V-type antenna.",
+            "description": "",
+            "user_certainty": 3,
+            "combiningFunc": "MIN",
+            "type": "EVD_SIGINT",
+            "templateID": null,
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "2/2/2015, 12:00:41 PM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "American Radio Relay League 1945, p. 453. \nLong, Elgen M. and Marie K. Amelia Earhart: The Mystery Solved. New York: Simon & Schuster, 1999. ISBN 0-684-86005-8.\nEverette, Michael. \"Electric Radio Communications Equipment Installed on Board Lockeed Electra NR16020.\" tighar.org, 2009. Retrieved: July 10, 2010. http://tighar.org/Projects/Earhart/Archives/Research/ResearchPapers/ElectraRadios/ElectraRadios.htm",
+                "url": ""
+            },
+            "clones": []
+        },
+        {
+            "id": "320",
+            "visual_id": "320",
+            "name": "Transmission 6:14 - Near Howland : At 6:14 am a call was received stating the aircraft was within 200 miles (320 km), and requested that the ship use its direction finder to provide a bearing for the aircraft. Earhart began whistling into the microphone to provide a continual signal for them to home in on. It was at this point that the radio operators on the Itasca realized that their RDF system could not tune in the aircraft's 3015 kHz frequency; radioman Leo Bellarts later commented that he \"was sitting there sweating blood because I couldn't do a darn thing about it.\" A similar call asking for a bearing was received at 6:45 am, when Earhart estimated they were 100 miles (160 km) out",
+            "description": "",
+            "user_certainty": 3,
+            "combiningFunc": "MIN",
+            "type": "EVD_SIGINT",
+            "templateID": null,
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "2/2/2015, 12:00:41 PM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "Candace Fleming, \"Amelia Lost: The Life and Disappearance of Amelia Earhart\", Random House, 2011.",
+                "url": ""
+            },
+            "clones": []
+        },
+        {
+            "id": "326",
+            "visual_id": "326",
+            "name": "Antenna Removed : Don Dwiggins, in his biography of Paul Mantz (who assisted Earhart and Noonan in their flight planning), noted that the aviators had cut off their long-wire antenna, due to the annoyance of having to crank it back into the aircraft after each use.",
+            "description": "",
+            "user_certainty": 2,
+            "combiningFunc": "MIN",
+            "type": "EVD_HUMINT",
+            "templateID": null,
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "2/2/2015, 12:00:41 PM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "",
+                "url": ""
+            },
+            "clones": []
+        },
+        {
+            "id": "329",
+            "visual_id": "329",
+            "name": "Antenna Problem : Motion picture evidence from Lae suggests that an antenna mounted underneath the fuselage may have been torn off from the fuel-heavy Electra during taxi or takeoff from Lae's turf runway, though no antenna was reported found at Lae.",
+            "description": "",
+            "user_certainty": 2,
+            "combiningFunc": "MIN",
+            "type": "EVD_SIGINT",
+            "templateID": null,
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "2/2/2015, 12:00:42 PM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "",
+                "url": ""
+            },
+            "clones": []
+        },
+        {
+            "id": "332",
+            "visual_id": "332",
+            "name": "Communication Problems : Another cited cause of possible confusion was that the Itasca and Earhart planned their communication schedule using time systems set a half hour apart, with Earhart using Greenwich Civil Time (GCT) and the Itasca under a Naval time zone designation system.",
+            "description": "",
+            "user_certainty": 4,
+            "combiningFunc": "MIN",
+            "type": "EVD_OSINT",
+            "templateID": null,
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "2/2/2015, 12:00:42 PM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "Hoverstein, Paul. \"An American Obsession\". Air & Space Smithsonian, Vol. 22, No. 2, June/July 2007.",
+                "url": ""
+            },
+            "clones": []
+        },
+        {
+            "id": "341",
+            "visual_id": "341",
+            "name": "Low Accuracy of Direction Finding : Fred Noonan had earlier written about problems affecting the accuracy of radio direction finding in navigation.",
+            "description": "",
+            "user_certainty": null,
+            "combiningFunc": "MIN",
+            "type": "EVD_TECHINT",
+            "templateID": "CIT.00000",
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "2/2/2015, 12:00:42 PM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "Noonan, Fred. Memo to Operations Manager, Pacific Division, Pan American Airlines, April 29, 1935: \"The inaccuracies of direction finding bearings can be very definitely cataloged: twilight effects, faint signals, wide splits of minima and inaccurate calibration.\"",
+                "url": ""
+            },
+            "clones": []
+        },
+        {
+            "id": "359",
+            "visual_id": "359",
+            "name": "Transmission 7:42 - Proximity, Low Fuel, Can't See You: At 7:42 am Earhart radioed \"We must be on you, but cannot see you and gas is running low.",
+            "description": "",
+            "user_certainty": 4,
+            "combiningFunc": "MIN",
+            "type": "EVD_SIGINT",
+            "templateID": null,
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "2/2/2015, 12:00:43 PM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "Jacobson, Randall S., PhD. \"The Final Flight. Part 3: At Howland Island.\" tighar.org, 2009. Retrieved: July 10, 2010. ",
+                "url": "http://tighar.org/Projects/Earhart/Archives/Research/ResearchPapers/Worldflight/finalflight3.html"
+            },
+            "clones": [
+                "995",
+                "1013"
+            ]
+        },
+        {
+            "id": "293",
+            "visual_id": "293",
+            "name": "Transmission 7:58 - Couldn't Hear, Needed Bearing, Proximity:  At 7:58 am Earhart transmitted that she couldn't hear the Itasca and asked them to send voice signals so she could try to take a radio bearing. This transmission was reported by the Itasca as the loudest possible signal, indicating Earhart and Noonan were in the immediate area. The Itasca couldn't send voice at the frequency she asked for, so Morse code signals were sent instead. Earhart acknowledged receiving these but said she was unable to determine their direction.",
+            "description": "",
+            "user_certainty": 3,
+            "combiningFunc": "MIN",
+            "type": "EVD_SIGINT",
+            "templateID": null,
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "2/2/2015, 12:00:40 PM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "Jacobson, Randall S., PhD. \"The Final Flight. Part 3: At Howland Island.\" tighar.org, 2009. Retrieved: July 10, 2010.",
+                "url": "http://tighar.org/Projects/Earhart/Archives/Research/ResearchPapers/Worldflight/finalflight3.html"
+            },
+            "clones": []
+        },
+        {
+            "id": "397",
+            "visual_id": "397",
+            "name": "Final transmission 8:43am  - North-South Line, Incorrect Position : At 8:43 am Earhart broadcast \"We are on the line 157 337. We will repeat this message. We will repeat this on 6210 kilocycles. Wait.\" However, a few moments later she was back on the same frequency (3105 kHz) with a transmission which was logged as a \"questionable\": \"We are running on line north and south.\"Earhart's transmissions seemed to indicate she and Noonan believed they had reached Howland's charted position, which was incorrect by about five nautical miles (10 km).",
+            "description": "",
+            "user_certainty": 3,
+            "combiningFunc": "MAX",
+            "type": "EVD_SIGINT",
+            "templateID": null,
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "12/6/2016, 3:38:18 PM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "[\"Earhart Navigation FAQ.\" tighar.org. Retrieved: July 10, 2010.] ",
+                "url": ""
+            },
+            "clones": [
+                "980"
+            ]
+        },
+        {
+            "id": "424",
+            "visual_id": "424",
+            "name": "Electra Range : The Electra's maximum range was 4,500 miles (7,242.1 km) using 1,200 gallons (4,542.5 liters) of fuel.",
+            "description": "",
+            "user_certainty": 5,
+            "combiningFunc": "MAX",
+            "type": "EVD_TECHINT",
+            "templateID": null,
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "12/6/2016, 4:28:37 PM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "Lockheed Martin",
+                "url": ""
+            },
+            "clones": [
+                "993"
+            ]
+        },
+        {
+            "id": "427",
+            "visual_id": "427",
+            "name": "Post flight signals - Radio Power Needs Engine :  If the post flight transmissions were from Earhart and Noonan, they must have been on land with the aircraft since water would have otherwise shorted out the Electra's electrical system.  The essential components were all mounted low, including the generator, batteries, dynamotor and transmitter. In order to operate the radio for any length of time, the aircraft would have had to be standing more or less upright on its landing gear with the right engine running in order to charge the 50-watt transmitter's battery, which would have consumed six gallons of fuel per hour.",
+            "description": "",
+            "user_certainty": 5,
+            "combiningFunc": "MAX",
+            "type": "EVD_TECHINT",
+            "templateID": null,
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "Wednesday, December 07, 2016 1:23:30 PM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "",
+                "url": ""
+            },
+            "clones": [
+                "1023"
+            ]
+        },
+        {
+            "id": "429",
+            "visual_id": "429",
+            "name": "Post Flight Signal Origin: Bearings taken by Pan American Airways stations suggested transmissions originating from several locations, including Nikumaroro Island.",
+            "description": "",
+            "user_certainty": 3,
+            "combiningFunc": "MAX",
+            "type": "EVD_SIGINT",
+            "templateID": null,
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "Wednesday, December 07, 2016 3:30:31 PM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "",
+                "url": ""
+            },
+            "clones": [
+                "1022"
+            ]
+        },
+        {
+            "id": "477",
+            "visual_id": "477",
+            "name": "Nikumaroro Environment & Climate :  Nikumaroro has no fresh water and has temperatures often exceeding 100 degrees Fahrenheit. ",
+            "description": "",
+            "user_certainty": null,
+            "combiningFunc": "MAX",
+            "type": "EVD_GEOINT",
+            "templateID": null,
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "12/8/2016, 11:47:32 AM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "",
+                "url": ""
+            },
+            "clones": []
+        },
+        {
+            "id": "506",
+            "visual_id": "506",
+            "name": "Electra Ground Speed : Based on last known position report, the Electra was making an average ground speed of about 120-mph, indicating a stronger headwind than expected.",
+            "description": "",
+            "user_certainty": 4,
+            "combiningFunc": "MAX",
+            "type": "EVD_MASINT",
+            "templateID": null,
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "12/8/2016, 2:30:22 PM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "",
+                "url": ""
+            },
+            "clones": [
+                "1015"
+            ]
+        },
+        {
+            "id": "968",
+            "visual_id": "968",
+            "name": "Amelia survived the landing or crash",
+            "description": "",
+            "user_certainty": null,
+            "combiningFunc": "MAX",
+            "type": "HYP",
+            "templateID": null,
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "5/23/2018, 5:20:49 PM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "",
+                "url": ""
+            },
+            "clones": [
+                "969"
+            ]
+        },
+        {
+            "id": "976",
+            "visual_id": "976",
+            "name": "Earhart crashed on Niku island and survived",
+            "description": "",
+            "user_certainty": null,
+            "combiningFunc": "MIN",
+            "type": "HYP",
+            "templateID": null,
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "5/23/2018, 5:24:42 PM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "",
+                "url": ""
+            },
+            "clones": [
+                "977"
+            ]
+        },
+        {
+            "id": "983",
+            "visual_id": "983",
+            "name": "Amelia crashed on Niku",
+            "description": "",
+            "user_certainty": null,
+            "combiningFunc": "MIN",
+            "type": "HYP",
+            "templateID": null,
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "5/23/2018, 5:26:29 PM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "",
+                "url": ""
+            },
+            "clones": [
+                "984"
+            ]
+        },
+        {
+            "id": "988",
+            "visual_id": "988",
+            "name": "Niku reachable?",
+            "description": "",
+            "user_certainty": null,
+            "combiningFunc": "MAX",
+            "type": "HYP",
+            "templateID": null,
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "5/23/2018, 5:27:26 PM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "",
+                "url": ""
+            },
+            "clones": [
+                "989"
+            ]
+        },
+        {
+            "id": "1002",
+            "visual_id": "1002",
+            "name": "Seek more evidence on the fuel levels",
+            "description": "",
+            "user_certainty": null,
+            "combiningFunc": "MAX",
+            "type": "GAP",
+            "templateID": null,
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "5/23/2018, 5:58:02 PM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "",
+                "url": ""
+            },
+            "clones": [
+                "1003"
+            ]
+        },
+        {
+            "id": "1005",
+            "visual_id": "1005",
+            "name": "Crashed in the ocean and sank",
+            "description": "",
+            "user_certainty": null,
+            "combiningFunc": "MAX",
+            "type": "HYP",
+            "templateID": null,
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "5/23/2018, 5:59:00 PM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "",
+                "url": ""
+            },
+            "clones": [
+                "1006"
+            ]
+        },
+        {
+            "id": "1007",
+            "visual_id": "1007",
+            "name": "Ran out of fuel",
+            "description": "",
+            "user_certainty": null,
+            "combiningFunc": "MAX",
+            "type": "HYP",
+            "templateID": null,
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "5/23/2018, 5:59:44 PM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "",
+                "url": ""
+            },
+            "clones": [
+                "1008"
+            ]
+        },
+        {
+            "id": "1017",
+            "visual_id": "1017",
+            "name": "Electra was fully at takeoff",
+            "description": "",
+            "user_certainty": 3,
+            "combiningFunc": "MAX",
+            "type": "EVD_ASSUMPTION",
+            "templateID": null,
+            "templateFragments": [],
+            "ERLNode": null,
+            "location": "",
+            "serial_number": "",
+            "be_number": "",
+            "date": "5/23/2018, 6:03:12 PM",
+            "securityAttributesGroup": {
+                "classification": "U",
+                "SCIcontrols": [],
+                "disseminationControls": [],
+                "releasableTo": [],
+                "FGIsourceOpen": []
+            },
+            "completions": [],
+            "source": {
+                "description": "",
+                "url": ""
+            },
+            "clones": [
+                "1018"
+            ]
+        }
+    ],
+    "renders": [
+        {
+            "id": "968",
+            "visual_id": "969",
+            "children": [
+                "970"
+            ],
+            "ERLNode": null,
+            "visible": true
+        },
+        {
+            "id": "41",
+            "visual_id": "970",
+            "children": [],
+            "ERLNode": null,
+            "visible": true
+        },
+        {
+            "id": "976",
+            "visual_id": "977",
+            "children": [
+                "984",
+                "969"
+            ],
+            "ERLNode": null,
+            "visible": true
+        },
+        {
+            "id": "397",
+            "visual_id": "980",
+            "children": [],
+            "ERLNode": null,
+            "visible": true
+        },
+        {
+            "id": "983",
+            "visual_id": "984",
+            "children": [
+                "989",
+                "1023",
+                "1022",
+                "980"
+            ],
+            "ERLNode": null,
+            "visible": true
+        },
+        {
+            "id": "988",
+            "visual_id": "989",
+            "children": [
+                "1003",
+                "991",
+                "993",
+                "995"
+            ],
+            "ERLNode": null,
+            "visible": true
+        },
+        {
+            "id": "23",
+            "visual_id": "991",
+            "children": [],
+            "ERLNode": null,
+            "visible": true
+        },
+        {
+            "id": "424",
+            "visual_id": "993",
+            "children": [],
+            "ERLNode": null,
+            "visible": true
+        },
+        {
+            "id": "359",
+            "visual_id": "995",
+            "children": [],
+            "ERLNode": null,
+            "visible": true
+        },
+        {
+            "id": "1002",
+            "visual_id": "1003",
+            "children": [],
+            "ERLNode": null,
+            "visible": true
+        },
+        {
+            "id": "1005",
+            "visual_id": "1006",
+            "children": [
+                "1008"
+            ],
+            "ERLNode": null,
+            "visible": true
+        },
+        {
+            "id": "1007",
+            "visual_id": "1008",
+            "children": [
+                "1015",
+                "1013",
+                "1018"
+            ],
+            "ERLNode": null,
+            "visible": true
+        },
+        {
+            "id": "359",
+            "visual_id": "1013",
+            "children": [],
+            "ERLNode": null,
+            "visible": true
+        },
+        {
+            "id": "506",
+            "visual_id": "1015",
+            "children": [],
+            "ERLNode": null,
+            "visible": true
+        },
+        {
+            "id": "1017",
+            "visual_id": "1018",
+            "children": [],
+            "ERLNode": null,
+            "visible": true
+        },
+        {
+            "id": "429",
+            "visual_id": "1022",
+            "children": [],
+            "ERLNode": null,
+            "visible": true
+        },
+        {
+            "id": "427",
+            "visual_id": "1023",
+            "children": [],
+            "ERLNode": null,
+            "visible": true
+        }
+    ],
+    "links": [
+        {
+            "id": "985",
+            "parent": {
+                "id": "977"
+            },
+            "relevance": 5,
+            "type": "EVD_SUPPORT",
+            "ERLNode": null,
+            "children": [
+                {
+                    "id": "984"
+                },
+                {
+                    "id": "969"
+                }
+            ]
+        },
+        {
+            "id": "992",
+            "parent": {
+                "id": "989"
+            },
+            "relevance": 3,
+            "type": "EVD_SUPPORT",
+            "ERLNode": null,
+            "children": [
+                {
+                    "id": "991"
+                }
+            ]
+        },
+        {
+            "id": "994",
+            "parent": {
+                "id": "989"
+            },
+            "relevance": 4,
+            "type": "EVD_SUPPORT",
+            "ERLNode": null,
+            "children": [
+                {
+                    "id": "993"
+                }
+            ]
+        },
+        {
+            "id": "996",
+            "parent": {
+                "id": "989"
+            },
+            "relevance": -3,
+            "type": "EVD_REFUTE",
+            "ERLNode": null,
+            "children": [
+                {
+                    "id": "995"
+                }
+            ]
+        },
+        {
+            "id": "997",
+            "parent": {
+                "id": "984"
+            },
+            "relevance": 4,
+            "type": "EVD_SUPPORT",
+            "ERLNode": null,
+            "children": [
+                {
+                    "id": "1023"
+                },
+                {
+                    "id": "1022"
+                },
+                {
+                    "id": "989"
+                },
+                {
+                    "id": "980"
+                }
+            ]
+        },
+        {
+            "id": "1004",
+            "parent": {
+                "id": "989"
+            },
+            "relevance": null,
+            "type": "EVD_SUPPORT",
+            "ERLNode": null,
+            "children": [
+                {
+                    "id": "1003"
+                }
+            ]
+        },
+        {
+            "id": "1009",
+            "parent": {
+                "id": "1006"
+            },
+            "relevance": 4,
+            "type": "EVD_SUPPORT",
+            "ERLNode": null,
+            "children": [
+                {
+                    "id": "1008"
+                }
+            ]
+        },
+        {
+            "id": "1014",
+            "parent": {
+                "id": "1008"
+            },
+            "relevance": 4,
+            "type": "EVD_SUPPORT",
+            "ERLNode": null,
+            "children": [
+                {
+                    "id": "1013"
+                }
+            ]
+        },
+        {
+            "id": "1016",
+            "parent": {
+                "id": "1008"
+            },
+            "relevance": 3,
+            "type": "EVD_SUPPORT",
+            "ERLNode": null,
+            "children": [
+                {
+                    "id": "1015"
+                }
+            ]
+        },
+        {
+            "id": "1019",
+            "parent": {
+                "id": "1008"
+            },
+            "relevance": -1,
+            "type": "EVD_REFUTE",
+            "ERLNode": null,
+            "children": [
+                {
+                    "id": "1018"
+                }
+            ]
+        },
+        {
+            "id": "971",
+            "parent": {
+                "id": "969"
+            },
+            "relevance": 3,
+            "type": "EVD_SUPPORT",
+            "ERLNode": null,
+            "children": [
+                {
+                    "id": "970"
+                }
+            ]
+        }
+    ],
+    "annotations": [
+        {
+            "id": "1020",
+            "type": "node_annotation",
+            "text": "Seems like a reaesonable assumption.",
+            "author": "Author",
+            "date": "2018-05-23T22:05:17.436Z",
+            "annotatedElement": "1018",
+            "tags": [
+                "Assumption"
+            ]
+        }
+    ],
+    "nextAvailableID": 1044
+}
