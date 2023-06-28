@@ -1,7 +1,11 @@
 import os
 
 import openai
-from flask import Flask, redirect, render_template, request, url_for
+from werkzeug.exceptions import HTTPException
+
+from flask import Flask, redirect, render_template, request, url_for, jsonify
+
+
 
 app = Flask(__name__)
 openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -86,6 +90,26 @@ def article_index():
     if result is not None:
         result = result.split('\n')
     return render_template("article_index.html", result=result)
+
+
+@app.route('/article_json', methods=['POST'])
+def article_json():
+    input_json = request.get_json(force=True)
+    if 'content' not in input_json:
+        raise HTTPException('content required')
+    content = input_json['content']
+    if isinstance(content, list):
+        content = '\n'.join(content)
+    response = openai.ChatCompletion.create(
+        model="gpt-3.5-turbo",
+        messages=[
+            {"role": "system", "content": "what is the article we are discussing?"},
+            {"role": "assistant", "content": content},
+            {"role": "user", "content": "Please outline all arguments made in the article."}
+        ]
+    )
+    text_result = '\n'.join([c['message']['content'] for c in response.choices]).split('\n')
+    return jsonify({'results': text_result})
 
 
 
